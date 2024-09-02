@@ -17,7 +17,7 @@ riverctl map normal Super+Shift Return spawn kitty
 riverctl map normal Super B spawn brave
 
 #wofi
-riverctl map normal Super P spawn dmenu
+riverctl map normal Super P spawn "wofi --show drun"
 
 # Super+Q to close the focused view
 riverctl map normal Super Q close
