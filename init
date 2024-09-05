@@ -19,6 +19,9 @@ riverctl map normal Super B spawn brave
 #wofi
 riverctl map normal Super P spawn "wofi --show drun"
 
+#hyprpaper works with river
+riverctl spawn hyprpaper
+
 # Super+Q to close the focused view
 riverctl map normal Super Q close
 
