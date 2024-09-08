@@ -22,6 +22,9 @@ riverctl map normal Super P spawn "wofi --show drun"
 #hyprpaper works with river
 riverctl spawn hyprpaper
 
+#nm-applet
+riverctl spawn "nm-applet"
+
 # Super+Q to close the focused view
 riverctl map normal Super Q close
 
