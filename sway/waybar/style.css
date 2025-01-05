@@ -51,33 +51,6 @@ button:hover {
   color: @highlight;
 }
 
-/*River Tags/Workspaces*/
-#tags {
-  background-color: transparent;
-  border-radius: 0px;
-}
-
-#tags button {
-  color: @fg;
-  background: @bg;
-
-  /*If you need round border icons*/
-  border-radius: 20px;
-  padding: 0px 5px;
-  margin: 3px 0px;
-}
-
-#tags button.occupied {
-  color: @fg;
-}
-
-#tags button.focused {
-  color: @highlight;
-}
-
-#tags button.urgent {
-  color: @alert;
-}
 
 #clock,
 #battery,
