@@ -47,7 +47,7 @@ button:hover {
   color: @bordercolor;
 }
 
-#workspaces button.active {
+#workspaces button.focused {
   color: @highlight;
 }
 
