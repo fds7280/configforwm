@@ -1,5 +1,7 @@
 #!/bin/bash
 
+########### THIS ONLY WORKS WITH SWWW ############
+
 # Set the directory path
 directory="/home/bear/Downloads/wps"
 
@@ -13,4 +15,8 @@ done | rofi -dmenu -show-icons -p "Select Image:" | while read selected_image; d
     # Execute the command with the selected image path
     swww img "/home/bear/Downloads/wps/${selected_image}"
 done
+
+
+
+
 
